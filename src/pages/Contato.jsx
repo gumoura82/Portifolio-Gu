@@ -1,4 +1,9 @@
 export default function Contato(){
+    function enviarForms(){
+        
+    }
+
+
     return(
         <section className="mr-[16%] ml-[16%]">
             <h1 className="tittle-sobre">Contato</h1>
@@ -14,7 +19,7 @@ export default function Contato(){
                         <input className="input-contato n1" type="text" placeholder="Name" id="name"/>
                         <input className="input-contato n2" type="email" placeholder="Email" id="email"/>
                         <input className="input-contato n3" type="text" placeholder="Mensagem" id="nensagem"/>
-                        <button className="button-1">Enviar</button>
+                        <button className="button-1" onClick={enviarForms()}>Enviar</button>
                     </form>
                 </div>
             </div>
